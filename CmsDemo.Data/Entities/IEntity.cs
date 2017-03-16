@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CmsDemo
+namespace CmsDemo.Data.Entities
 {
-	class Program
+	public interface IEntity
 	{
-		static void Main(string[] args)
-		{
-		}
+		int ID { get; set; }
 	}
 }

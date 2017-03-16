@@ -1,0 +1,16 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+	<h1>Customer Demo</h1>
+	<p class="lead">A small web portal to demonstrate MVC by allowing customer entry, modifications, and removal.</p>
+	<div class="row">
+		<div class="col-lg-offset-1 col-lg-3">
+			<a href="@Url.Action("Create", "Customers")" class="btn btn-primary btn-lg">Create Customer &raquo;</a>
+		</div>
+		<div class="col-lg-3">
+			<a href="@Url.Action("Index", "Customers")" class="btn btn-primary btn-lg">View Customer List &raquo;</a>
+		</div>
+	</div>
+</div>
